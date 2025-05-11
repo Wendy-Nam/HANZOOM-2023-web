@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "": "src/",
+            "Aws\\": "vendor/aws/aws-sdk-php/src/"
+        }
+    },
+    "require": {
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "aws/aws-sdk-php": "^3.294",
+        "ramsey/uuid": "^4.2"
+    }
+}
